@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0C9522113FF452200BCB341 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C9522013FF452200BCB341 /* Cocoa.framework */; };
+		C0C9522B13FF452200BCB341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0C9522913FF452200BCB341 /* InfoPlist.strings */; };
+		C0C9522D13FF452200BCB341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9522C13FF452200BCB341 /* main.m */; };
+		C0C9523113FF452200BCB341 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C0C9522F13FF452200BCB341 /* Credits.rtf */; };
+		C0C9523413FF452200BCB341 /* TextDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9523313FF452200BCB341 /* TextDocument.m */; };
+		C0C9523713FF452200BCB341 /* TextDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C9523513FF452200BCB341 /* TextDocument.xib */; };
+		C0C9523A13FF452300BCB341 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C9523813FF452300BCB341 /* MainMenu.xib */; };
+		C0C9524213FF452300BCB341 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C9524113FF452300BCB341 /* SenTestingKit.framework */; };
+		C0C9524313FF452300BCB341 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C9522013FF452200BCB341 /* Cocoa.framework */; };
+		C0C9524B13FF452300BCB341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0C9524913FF452300BCB341 /* InfoPlist.strings */; };
+		C0C9524D13FF452300BCB341 /* ColorizeWordsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C0C9524C13FF452300BCB341 /* ColorizeWordsTests.h */; };
+		C0C9524F13FF452300BCB341 /* ColorizeWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9524E13FF452300BCB341 /* ColorizeWordsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C9524413FF452300BCB341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C9521313FF452200BCB341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C9521B13FF452200BCB341;
+			remoteInfo = ColorizeWords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0C9521C13FF452200BCB341 /* ColorizeWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizeWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C9522013FF452200BCB341 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C0C9522313FF452200BCB341 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C0C9522413FF452200BCB341 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C0C9522513FF452200BCB341 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0C9522813FF452200BCB341 /* ColorizeWords-Info.plist */ = {isa = PBXFileReference; path = "ColorizeWords-Info.plist"; sourceTree = "<group>"; };
+		C0C9522A13FF452200BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0C9522C13FF452200BCB341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0C9522E13FF452200BCB341 /* ColorizeWords-Prefix.pch */ = {isa = PBXFileReference; path = "ColorizeWords-Prefix.pch"; sourceTree = "<group>"; };
+		C0C9523013FF452200BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C0C9523213FF452200BCB341 /* TextDocument.h */ = {isa = PBXFileReference; path = TextDocument.h; sourceTree = "<group>"; };
+		C0C9523313FF452200BCB341 /* TextDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDocument.m; sourceTree = "<group>"; };
+		C0C9523613FF452200BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TextDocument.xib; sourceTree = "<group>"; };
+		C0C9523913FF452300BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C0C9524013FF452300BCB341 /* ColorizeWordsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorizeWordsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C9524113FF452300BCB341 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0C9524813FF452300BCB341 /* ColorizeWordsTests-Info.plist */ = {isa = PBXFileReference; path = "ColorizeWordsTests-Info.plist"; sourceTree = "<group>"; };
+		C0C9524A13FF452300BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0C9524C13FF452300BCB341 /* ColorizeWordsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorizeWordsTests.h; sourceTree = "<group>"; };
+		C0C9524E13FF452300BCB341 /* ColorizeWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorizeWordsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0C9521913FF452200BCB341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C9522113FF452200BCB341 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C9523C13FF452300BCB341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C9524213FF452300BCB341 /* SenTestingKit.framework in Frameworks */,
+				C0C9524313FF452300BCB341 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0C9521113FF452200BCB341 = {
+			isa = PBXGroup;
+			children = (
+				C0C9522613FF452200BCB341 /* ColorizeWords */,
+				C0C9524613FF452300BCB341 /* ColorizeWordsTests */,
+				C0C9521F13FF452200BCB341 /* Frameworks */,
+				C0C9521D13FF452200BCB341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0C9521D13FF452200BCB341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9521C13FF452200BCB341 /* ColorizeWords.app */,
+				C0C9524013FF452300BCB341 /* ColorizeWordsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0C9521F13FF452200BCB341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9522013FF452200BCB341 /* Cocoa.framework */,
+				C0C9524113FF452300BCB341 /* SenTestingKit.framework */,
+				C0C9522213FF452200BCB341 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C9522213FF452200BCB341 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9522313FF452200BCB341 /* AppKit.framework */,
+				C0C9522413FF452200BCB341 /* CoreData.framework */,
+				C0C9522513FF452200BCB341 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C0C9522613FF452200BCB341 /* ColorizeWords */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9523213FF452200BCB341 /* TextDocument.h */,
+				C0C9523313FF452200BCB341 /* TextDocument.m */,
+				C0C9523513FF452200BCB341 /* TextDocument.xib */,
+				C0C9523813FF452300BCB341 /* MainMenu.xib */,
+				C0C9522713FF452200BCB341 /* Supporting Files */,
+			);
+			path = ColorizeWords;
+			sourceTree = "<group>";
+		};
+		C0C9522713FF452200BCB341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9522813FF452200BCB341 /* ColorizeWords-Info.plist */,
+				C0C9522913FF452200BCB341 /* InfoPlist.strings */,
+				C0C9522C13FF452200BCB341 /* main.m */,
+				C0C9522E13FF452200BCB341 /* ColorizeWords-Prefix.pch */,
+				C0C9522F13FF452200BCB341 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C9524613FF452300BCB341 /* ColorizeWordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9524C13FF452300BCB341 /* ColorizeWordsTests.h */,
+				C0C9524E13FF452300BCB341 /* ColorizeWordsTests.m */,
+				C0C9524713FF452300BCB341 /* Supporting Files */,
+			);
+			path = ColorizeWordsTests;
+			sourceTree = "<group>";
+		};
+		C0C9524713FF452300BCB341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9524813FF452300BCB341 /* ColorizeWordsTests-Info.plist */,
+				C0C9524913FF452300BCB341 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C9521B13FF452200BCB341 /* ColorizeWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C9525213FF452300BCB341 /* Build configuration list for PBXNativeTarget "ColorizeWords" */;
+			buildPhases = (
+				C0C9521813FF452200BCB341 /* Sources */,
+				C0C9521913FF452200BCB341 /* Frameworks */,
+				C0C9521A13FF452200BCB341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorizeWords;
+			productName = ColorizeWords;
+			productReference = C0C9521C13FF452200BCB341 /* ColorizeWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C9523F13FF452300BCB341 /* ColorizeWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C9525513FF452300BCB341 /* Build configuration list for PBXNativeTarget "ColorizeWordsTests" */;
+			buildPhases = (
+				C0C9523B13FF452300BCB341 /* Sources */,
+				C0C9523C13FF452300BCB341 /* Frameworks */,
+				C0C9523D13FF452300BCB341 /* Resources */,
+				C0C9523E13FF452300BCB341 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C9524513FF452300BCB341 /* PBXTargetDependency */,
+			);
+			name = ColorizeWordsTests;
+			productName = ColorizeWordsTests;
+			productReference = C0C9524013FF452300BCB341 /* ColorizeWordsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C9521313FF452200BCB341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Basil Salad Software";
+			};
+			buildConfigurationList = C0C9521613FF452200BCB341 /* Build configuration list for PBXProject "ColorizeWords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0C9521113FF452200BCB341;
+			productRefGroup = C0C9521D13FF452200BCB341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0C9521B13FF452200BCB341 /* ColorizeWords */,
+				C0C9523F13FF452300BCB341 /* ColorizeWordsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0C9521A13FF452200BCB341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C9522B13FF452200BCB341 /* InfoPlist.strings in Resources */,
+				C0C9523113FF452200BCB341 /* Credits.rtf in Resources */,
+				C0C9523713FF452200BCB341 /* TextDocument.xib in Resources */,
+				C0C9523A13FF452300BCB341 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C9523D13FF452300BCB341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C9524B13FF452300BCB341 /* InfoPlist.strings in Resources */,
+				C0C9524D13FF452300BCB341 /* ColorizeWordsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0C9523E13FF452300BCB341 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0C9521813FF452200BCB341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C9522D13FF452200BCB341 /* main.m in Sources */,
+				C0C9523413FF452200BCB341 /* TextDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C9523B13FF452300BCB341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C9524F13FF452300BCB341 /* ColorizeWordsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C9524513FF452300BCB341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C9521B13FF452200BCB341 /* ColorizeWords */;
+			targetProxy = C0C9524413FF452300BCB341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0C9522913FF452200BCB341 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C9522A13FF452200BCB341 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0C9522F13FF452200BCB341 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C9523013FF452200BCB341 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C0C9523513FF452200BCB341 /* TextDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C9523613FF452200BCB341 /* en */,
+			);
+			name = TextDocument.xib;
+			sourceTree = "<group>";
+		};
+		C0C9523813FF452300BCB341 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C9523913FF452300BCB341 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C0C9524913FF452300BCB341 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C9524A13FF452300BCB341 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0C9525013FF452300BCB341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C0C9525113FF452300BCB341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0C9525313FF452300BCB341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorizeWords/ColorizeWords-Prefix.pch";
+				INFOPLIST_FILE = "ColorizeWords/ColorizeWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0C9525413FF452300BCB341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorizeWords/ColorizeWords-Prefix.pch";
+				INFOPLIST_FILE = "ColorizeWords/ColorizeWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0C9525613FF452300BCB341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorizeWords.app/Contents/MacOS/ColorizeWords";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorizeWords/ColorizeWords-Prefix.pch";
+				INFOPLIST_FILE = "ColorizeWordsTests/ColorizeWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C0C9525713FF452300BCB341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorizeWords.app/Contents/MacOS/ColorizeWords";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorizeWords/ColorizeWords-Prefix.pch";
+				INFOPLIST_FILE = "ColorizeWordsTests/ColorizeWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0C9521613FF452200BCB341 /* Build configuration list for PBXProject "ColorizeWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C9525013FF452300BCB341 /* Debug */,
+				C0C9525113FF452300BCB341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C9525213FF452300BCB341 /* Build configuration list for PBXNativeTarget "ColorizeWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C9525313FF452300BCB341 /* Debug */,
+				C0C9525413FF452300BCB341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0C9525513FF452300BCB341 /* Build configuration list for PBXNativeTarget "ColorizeWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C9525613FF452300BCB341 /* Debug */,
+				C0C9525713FF452300BCB341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0C9521313FF452200BCB341 /* Project object */;
+}
