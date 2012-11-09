@@ -8,12 +8,12 @@ An example how to use `NSLingusticTagger` to add syntax highlighting to natural 
 Run the app and then a text document is displayed. By default the app pre-loads Martin Luther King Jr's "I Have a Dream" speech. You can replace the contents by pasting plain text or typing it directly in the editor window; however file load/save functions are not implemented as these are not relevant to the example.
 
 
-![Source Text](adib.github.com/ColorizeWords/images/ColorizeWords-Source.png)
+![Source Text](http://adib.github.com/ColorizeWords/images/ColorizeWords-Source.png)
 
 
 Click on _Process_ to invoke `NSLinguisticTagger` and then the document will be replaced with a read-only view that contains the syntax-highlighted document. This is a WebView and you can copy the text within and paste it to other application while retaining its formatting. To return to the editable view, just click on _Process_ again.
 
-![Colorized Text](adib.github.com/ColorizeWords/images/ColorizeWords-Processed.png)
+![Colorized Text](http://adib.github.com/ColorizeWords/images/ColorizeWords-Processed.png)
 
 
 ## Hacking
