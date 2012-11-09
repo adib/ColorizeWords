@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05F3FE513FF6823007DB2B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05F3FE413FF6823007DB2B2 /* QuartzCore.framework */; };
+		C05F3FE813FF6852007DB2B2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05F3FE713FF6852007DB2B2 /* WebKit.framework */; };
+		C05F3FEB13FF691E007DB2B2 /* obama-inaugural-address.txt in Resources */ = {isa = PBXBuildFile; fileRef = C05F3FE913FF691E007DB2B2 /* obama-inaugural-address.txt */; };
+		C05F3FEE13FF72EC007DB2B2 /* SolarizedColors.m in Sources */ = {isa = PBXBuildFile; fileRef = C05F3FED13FF72EC007DB2B2 /* SolarizedColors.m */; };
+		C05F3FF413FFC654007DB2B2 /* dream-speech.txt in Resources */ = {isa = PBXBuildFile; fileRef = C05F3FF313FFC654007DB2B2 /* dream-speech.txt */; };
 		C0C9522113FF452200BCB341 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C9522013FF452200BCB341 /* Cocoa.framework */; };
 		C0C9522B13FF452200BCB341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0C9522913FF452200BCB341 /* InfoPlist.strings */; };
 		C0C9522D13FF452200BCB341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9522C13FF452200BCB341 /* main.m */; };
@@ -32,26 +37,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C05F3FE413FF6823007DB2B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C05F3FE713FF6852007DB2B2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C05F3FEA13FF691E007DB2B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = "en.lproj/obama-inaugural-address.txt"; sourceTree = "<group>"; };
+		C05F3FEC13FF72EC007DB2B2 /* SolarizedColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarizedColors.h; sourceTree = "<group>"; };
+		C05F3FED13FF72EC007DB2B2 /* SolarizedColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolarizedColors.m; sourceTree = "<group>"; };
+		C05F3FF313FFC654007DB2B2 /* dream-speech.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dream-speech.txt"; sourceTree = "<group>"; };
 		C0C9521C13FF452200BCB341 /* ColorizeWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizeWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C9522013FF452200BCB341 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C0C9522313FF452200BCB341 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C0C9522413FF452200BCB341 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C0C9522513FF452200BCB341 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C0C9522813FF452200BCB341 /* ColorizeWords-Info.plist */ = {isa = PBXFileReference; path = "ColorizeWords-Info.plist"; sourceTree = "<group>"; };
+		C0C9522813FF452200BCB341 /* ColorizeWords-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorizeWords-Info.plist"; sourceTree = "<group>"; };
 		C0C9522A13FF452200BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0C9522C13FF452200BCB341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0C9522E13FF452200BCB341 /* ColorizeWords-Prefix.pch */ = {isa = PBXFileReference; path = "ColorizeWords-Prefix.pch"; sourceTree = "<group>"; };
+		C0C9522E13FF452200BCB341 /* ColorizeWords-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorizeWords-Prefix.pch"; sourceTree = "<group>"; };
 		C0C9523013FF452200BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C0C9523213FF452200BCB341 /* TextDocument.h */ = {isa = PBXFileReference; path = TextDocument.h; sourceTree = "<group>"; };
+		C0C9523213FF452200BCB341 /* TextDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDocument.h; sourceTree = "<group>"; };
 		C0C9523313FF452200BCB341 /* TextDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDocument.m; sourceTree = "<group>"; };
 		C0C9523613FF452200BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TextDocument.xib; sourceTree = "<group>"; };
 		C0C9523913FF452300BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C0C9524013FF452300BCB341 /* ColorizeWordsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorizeWordsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C9524113FF452300BCB341 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C0C9524813FF452300BCB341 /* ColorizeWordsTests-Info.plist */ = {isa = PBXFileReference; path = "ColorizeWordsTests-Info.plist"; sourceTree = "<group>"; };
+		C0C9524813FF452300BCB341 /* ColorizeWordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorizeWordsTests-Info.plist"; sourceTree = "<group>"; };
 		C0C9524A13FF452300BCB341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0C9524C13FF452300BCB341 /* ColorizeWordsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorizeWordsTests.h; sourceTree = "<group>"; };
 		C0C9524E13FF452300BCB341 /* ColorizeWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorizeWordsTests.m; sourceTree = "<group>"; };
+		C0C9525813FF453B00BCB341 /* ColorizeWords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ColorizeWords.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05F3FE813FF6852007DB2B2 /* WebKit.framework in Frameworks */,
+				C05F3FE513FF6823007DB2B2 /* QuartzCore.framework in Frameworks */,
 				C0C9522113FF452200BCB341 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +92,8 @@
 		C0C9521113FF452200BCB341 = {
 			isa = PBXGroup;
 			children = (
+				C05F3FE713FF6852007DB2B2 /* WebKit.framework */,
+				C05F3FE413FF6823007DB2B2 /* QuartzCore.framework */,
 				C0C9522613FF452200BCB341 /* ColorizeWords */,
 				C0C9524613FF452300BCB341 /* ColorizeWordsTests */,
 				C0C9521F13FF452200BCB341 /* Frameworks */,
@@ -117,11 +133,14 @@
 		C0C9522613FF452200BCB341 /* ColorizeWords */ = {
 			isa = PBXGroup;
 			children = (
+				C0C9525813FF453B00BCB341 /* ColorizeWords.entitlements */,
 				C0C9523213FF452200BCB341 /* TextDocument.h */,
 				C0C9523313FF452200BCB341 /* TextDocument.m */,
 				C0C9523513FF452200BCB341 /* TextDocument.xib */,
 				C0C9523813FF452300BCB341 /* MainMenu.xib */,
 				C0C9522713FF452200BCB341 /* Supporting Files */,
+				C05F3FEC13FF72EC007DB2B2 /* SolarizedColors.h */,
+				C05F3FED13FF72EC007DB2B2 /* SolarizedColors.m */,
 			);
 			path = ColorizeWords;
 			sourceTree = "<group>";
@@ -129,11 +148,13 @@
 		C0C9522713FF452200BCB341 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C05F3FE913FF691E007DB2B2 /* obama-inaugural-address.txt */,
 				C0C9522813FF452200BCB341 /* ColorizeWords-Info.plist */,
 				C0C9522913FF452200BCB341 /* InfoPlist.strings */,
 				C0C9522C13FF452200BCB341 /* main.m */,
 				C0C9522E13FF452200BCB341 /* ColorizeWords-Prefix.pch */,
 				C0C9522F13FF452200BCB341 /* Credits.rtf */,
+				C05F3FF313FFC654007DB2B2 /* dream-speech.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -231,6 +252,8 @@
 				C0C9523113FF452200BCB341 /* Credits.rtf in Resources */,
 				C0C9523713FF452200BCB341 /* TextDocument.xib in Resources */,
 				C0C9523A13FF452300BCB341 /* MainMenu.xib in Resources */,
+				C05F3FEB13FF691E007DB2B2 /* obama-inaugural-address.txt in Resources */,
+				C05F3FF413FFC654007DB2B2 /* dream-speech.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +291,7 @@
 			files = (
 				C0C9522D13FF452200BCB341 /* main.m in Sources */,
 				C0C9523413FF452200BCB341 /* TextDocument.m in Sources */,
+				C05F3FEE13FF72EC007DB2B2 /* SolarizedColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +314,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C05F3FE913FF691E007DB2B2 /* obama-inaugural-address.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05F3FEA13FF691E007DB2B2 /* en */,
+			);
+			name = "obama-inaugural-address.txt";
+			sourceTree = "<group>";
+		};
 		C0C9522913FF452200BCB341 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,6 +479,7 @@
 				C0C9525413FF452300BCB341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0C9525513FF452300BCB341 /* Build configuration list for PBXNativeTarget "ColorizeWordsTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +488,7 @@
 				C0C9525713FF452300BCB341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
